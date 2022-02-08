@@ -4,7 +4,7 @@ import { BiDotsVertical } from 'react-icons/bi';
 import { FaLink } from 'react-icons/fa';
 
 const MainTopbar = () => {
-  const name = "Let's Chat"
+  const name = "Let's Chat";
   return (
     <div className="w-[100%] h-[10%] rounded-tr-2xl px-4 bg-body flex items-center justify-between">
       <div className="flex items-center">
@@ -17,7 +17,7 @@ const MainTopbar = () => {
         </div>
       </div>
 
-      <h1 className='text-4xl text-btn font-mono italic font-bold'>{name}</h1>
+      <h1 className="text-4xl text-btn font-mono italic font-bold">{name}</h1>
 
       <div className="flex items-center">
         <FaLink className="text-logo text-3xl mr-4 hover:text-white hover:font-bold cursor-pointer" />
